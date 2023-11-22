@@ -4,7 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import org.iesch.ejercicios1evmoviles.databinding.ActivityMainBinding
-import org.iesch.ejercicios1evmoviles.ejercicios.CalculadoraActivity
+import org.iesch.ejercicios1evmoviles.ejercicios.calculadora.CalculadoraActivity
+import org.iesch.ejercicios1evmoviles.ejercicios.superheroes.SuperheroesActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -17,10 +18,10 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this, CalculadoraActivity::class.java)
             startActivity(intent)
         }
-//        binding.rellaySuperheroes.setOnClickListener {
-//            intent = Intent(this, SuperHeroesActivity::class.java)
-//            startActivity(intent)
-//        }
+        binding.rellaySuperheroes.setOnClickListener {
+            intent = Intent(this, SuperheroesActivity::class.java)
+            startActivity(intent)
+        }
 //        binding.rellayEdadCanina.setOnClickListener {
 //            intent = Intent(this, EdadCaninaActivity::class.java)
 //            startActivity(intent)

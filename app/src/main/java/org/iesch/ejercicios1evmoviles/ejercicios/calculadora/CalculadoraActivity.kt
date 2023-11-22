@@ -1,4 +1,4 @@
-package org.iesch.ejercicios1evmoviles.ejercicios
+package org.iesch.ejercicios1evmoviles.ejercicios.calculadora
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

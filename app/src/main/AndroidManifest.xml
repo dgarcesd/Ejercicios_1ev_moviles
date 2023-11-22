@@ -13,7 +13,13 @@
         android:theme="@style/Theme.Ejercicios1evMoviles"
         tools:targetApi="31">
         <activity
-            android:name=".ejercicios.CalculadoraActivity"
+            android:name=".ejercicios.superheroes.SuperheroesDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ejercicios.superheroes.SuperheroesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ejercicios.calculadora.CalculadoraActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
