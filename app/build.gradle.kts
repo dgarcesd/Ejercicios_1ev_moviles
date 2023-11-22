@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "org.iesch.ejercicios1evmoviles"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.iesch.ejercicios1evmoviles"
